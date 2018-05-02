@@ -1,6 +1,8 @@
-# Getting started
+# Getting started with EBA VEGA
 
-First things first. Your system should have Python 2`. Then install dependencies `pip` and `virtualenv`.
+This is a simple implementation of using `python-espeak` open-source library.
+
+First things first. Your system should have `Python 2`. Then install dependencies `pip` and `virtualenv`.
 
 ## Dependencies
 
@@ -25,6 +27,7 @@ Finally, run python file with all the code in:
 ```
 python voice_test.py
 ```
-Copyright EBA GROUP (TM) 2018
+
+That's it pretty much.
 
 ![alt text](https://i.pinimg.com/736x/79/02/1a/79021a6541f178e1e06bd70102c34ba3.jpg "Snorky")
