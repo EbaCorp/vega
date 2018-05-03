@@ -3,7 +3,7 @@
 EBA Vega is my personal project. I'm taking chatbot to a whole new level. 
 The purpose of my app is to bring speech-to-speech solution with neural networks solution in the backend.
 
-## Voice output (text-to-speech)
+## Voice output (text-to-speech) part
 This is a simple implementation of `python-espeak` open-source library.
 
 First things first. Your system should have `Python 2`. Then install package manager `pip` and environment manager `virtualenv`.
@@ -11,8 +11,6 @@ First things first. Your system should have `Python 2`. Then install package man
 ## Dependencies
 
 Project is using `python-espeak` package for voice synthesizing.
-
-## How to run
 
 Enter to the local environment profile by typing:
 
@@ -26,10 +24,14 @@ Run `python-espeak` package local installation by typing:
 pip install python-espeak
 ```
 
-Finally, run python file with all the code in:
+## Usage
+
+To use `speech.py` class' method `say()` you gotta import it firstly. Then use as a static method, like this:
 
 ```
-python voice_test.py
+import Speech from speech
+
+Speech.say("Have you seen an alien, please??!!")
 ```
 
 That's it, you're ready to use my text-to-speech Python wrapper.
