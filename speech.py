@@ -14,7 +14,7 @@ from espeak import espeak
 from espeak import core as espeak_core
 
 
-SPEECH_SPEED = 40 # words per minute
+SPEECH_SPEED = 30 # words per minute
 
 espeak.set_parameter(espeak.Parameter.Rate, SPEECH_SPEED, False)
 espeak.set_voice("ru") # Russian language interface
