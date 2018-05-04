@@ -34,7 +34,6 @@ class Speech():
         espeak.set_SynthCallback(cb)
         r = espeak.synth(*args)
 
-        # TODO: Log everything into a separate file/directory
         while r and not done_synth[0]:
             time.sleep(0.05)
         return r
