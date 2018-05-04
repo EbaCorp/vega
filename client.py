@@ -11,7 +11,7 @@ Retrieves data and then synthesizing it using my wrapper.
 import requests
 import json
 
-from speech import Speech # Our wrapper
+from . import Speech # Our wrapper
 
 """TODO: Wrap it up inside of a RESTful API
 so we can access synthesizer from outside of 
